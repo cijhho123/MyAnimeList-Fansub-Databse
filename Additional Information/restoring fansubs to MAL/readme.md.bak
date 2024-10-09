@@ -1,0 +1,13 @@
+# Note 
+This is a brief text version of the reddit post from https://www.reddit.com/r/anime/comments/9kq1ch/bringing_fansubs_back_on_mal/ (also saved in a PDF version undeer PATH)
+
+# Post
+Last week, I posted an archive of MAL fansub data. Today, I'm sharing a userscript that displays the archived fansub info on MAL anime pages, exactly like it used to be before they removed it.  
+
+The script relies on an API (source) that I've built (and hosting). The API pulls data from the archive so this will only display fansub data that was on MAL until the archiving date (September 25, 2018). I won't be adding to this data. I made this to make my transition to anidb easier (their fansub ratings are lacking and I couldn't give up on MAL's ratings). And I'm sharing because why not :)  
+
+~~ ~~Note that, to keep the server from overloading, this script doesn't load the data automatically when you visit an anime page. You have to click the "load" link at the bottom to load the data. This way, the server is only bothered when you need the data. Sorry if this is annoying. I'm hosting the api on a $5/month DigitalOcean server. No idea how much load it can handle (and how many of you will end up using the api regularly).~~ ~~ see edit  
+
+Happy watching.
+
+edit: I've updated the script to autoload subs and added a checkbox for hiding non-English subs. You can set default behavior for hiding by changing window.hidesubs variable on line#13.
