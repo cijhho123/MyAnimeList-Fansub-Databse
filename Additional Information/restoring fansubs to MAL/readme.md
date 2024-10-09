@@ -1,13 +1,11 @@
 # Note 
-This is a brief text version of the [reddit post](https://www.reddit.com/r/anime/comments/9kq1ch/bringing_fansubs_back_on_mal/) (also saved in a PDF version [here](PATH))
+This is a brief text version of the [reddit post](https://www.reddit.com/r/anime/comments/9kq1ch/bringing_fansubs_back_on_mal/) (also saved in a PDF version [here](../Bringing%20fansubs%20back%20on%20MAL%20_%20r_anime.pdf))
 
 # Post
-Last week, I posted an archive of MAL fansub data. Today, I'm sharing a [userscript](PATH) [source](https://gist.github.com/IA21/ae266dddddf96ab5d5b58604f1fa45a7) that displays the archived fansub info on MAL anime pages, exactly like it used to be before they removed it.  
+Last week, I posted an archive of MAL fansub data. Today, I'm sharing a [userscript](Userscript%20for%20displaying%20(archived)%20fansub%20info%20on%20MAL%20anime%20pages.js) [ [source](https://gist.github.com/IA21/ae266dddddf96ab5d5b58604f1fa45a7) ] that displays the archived fansub info on MAL anime pages, exactly like it used to be before they removed it.  
 
-The script relies on an [API](PATH) [source](https://gist.github.com/IA21/726bd716876fdbcb0603478c4e2ad7e4) that I've built (and hosting). The API pulls data from the archive so this will only display fansub data that was on MAL until the archiving date (September 25, 2018). I won't be adding to this data. I made this to make my transition to anidb easier (their fansub ratings are lacking and I couldn't give up on MAL's ratings). And I'm sharing because why not :)  
+The script relies on an [API](api.php) [ [source](https://gist.github.com/IA21/726bd716876fdbcb0603478c4e2ad7e4) ]. The API pulls data from the archive so this will only display fansub data that was on MAL until the archiving date (September 25, 2018). I won't be adding to this data. I made this to make my transition to anidb easier (their fansub ratings are lacking and I couldn't give up on MAL's ratings). And I'm sharing because why not :)  
 
-~~ ~~Note that, to keep the server from overloading, this script doesn't load the data automatically when you visit an anime page. You have to click the "load" link at the bottom to load the data. This way, the server is only bothered when you need the data. Sorry if this is annoying. I'm hosting the api on a $5/month DigitalOcean server. No idea how much load it can handle (and how many of you will end up using the api regularly).~~ ~~ see edit  
+The script is updated to autoload subs and added a checkbox for hiding non-English subs. You can set default behavior for hiding by changing window.hidesubs variable on line#13.
 
 Happy watching.
-
-edit: I've updated the script to autoload subs and added a checkbox for hiding non-English subs. You can set default behavior for hiding by changing window.hidesubs variable on line#13.
