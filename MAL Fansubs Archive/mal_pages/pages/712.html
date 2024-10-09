@@ -1,0 +1,936 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    
+
+<title>MyAnimeList.net</title>
+
+
+  
+<meta name="keywords" content="anime, myanimelist, anime news, manga" />
+  
+
+<meta property="og:locale" content="en_US"><meta property="fb:app_id" content="360769957454434"><meta property="og:site_name" content="MyAnimeList.net"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@myanimelist"><meta property="og:title" content="MyAnimeList.net"><meta property="og:image" content="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"><meta name="twitter:image:src" content="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"><meta property="og:url" content="https://myanimelist.net/fansub-groups.php?id=712">
+
+<meta name="referrer" content="default"><link rel="manifest" href="/manifest.json">
+
+<meta name='csrf_token' content='d18355b5e4fa9d9eb657f42ba9294cba1ee258bb'><link rel="stylesheet" type="text/css" href="https://myanimelist.cdn-dena.com/static/assets/css/pc/style-abc038a5d1.css" />
+
+<script type="text/javascript" src="https://myanimelist.cdn-dena.com/static/assets/js/pc/header-69110ae9e9.js"></script>
+<script type="text/javascript" src="https://myanimelist.cdn-dena.com/static/assets/js/pc/all-8978cc1861.js"
+        id="alljs" data-params='{&quot;origin_url&quot;:&quot;https:\/\/myanimelist.net&quot;,&quot;is_request_bot_filter_log&quot;:true}' defer></script>
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+
+<link rel="shortcut icon" href="https://myanimelist.cdn-dena.com/images/faviconv5.ico" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+  ga('create', 'UA-369102-1', 'auto')
+  ga('set', 'anonymizeIp', true)
+  ga('require', 'linkid') // Enhanced Link Attribution
+  ga('send', 'pageview')
+</script>
+  <!-- ### Load GPT Library ### -->
+<script type='text/javascript'>
+ var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+               '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();</script>
+<script src="https://apis.google.com/js/platform.js" async defer>{lang: 'en-GB'}</script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+
+
+</head>
+
+<body onload=" " class="page-common"
+
+data-ms="true">
+
+<div id="myanimelist">
+
+    
+      
+        <div class="_unit " style="width:1px;display: block !important;" data-height="1">
+      <div id="skin_detail" class="" style="width:1px;">
+        <script type='text/javascript'>
+          googletag.cmd.push(function() {
+                      var slot = googletag.defineOutOfPageSlot("/84947469/skin_detail", "skin_detail").addService(googletag.pubads())
+      .setTargeting("adult", "white").setCollapseEmptyDiv(true,true);googletag.enableServices();
+
+      googletag.display("skin_detail");
+              });</script>
+      </div>
+    </div>
+    <script type='text/javascript'>
+    window.MAL.SkinAd.prepareForSkin('skin_detail');
+  </script>
+
+    <div id="ad-skin-bg-left" class="ad-skin-side-outer ad-skin-side-bg bg-left">
+    <div id="ad-skin-left" class="ad-skin-side left" style="display: none;">
+      <div id="ad-skin-left-absolute-block">
+        <div id="ad-skin-left-fixed-block"></div>
+      </div>
+    </div>
+  </div>
+        <div class="wrapper"><div id="headerSmall"><a href="/" class="link-mal-logo">MyAnimeList.net</a>
+
+<a href="https://mtb7.myanimelist.net/index.html"
+     class="banner-header-anime-straming" target="_blank">
+    <img src="https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period.png" width="250" height="36"
+         srcset="https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period.png 1x, https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period@2x.png 2x"
+         alt="MangaTranslationBattle vol7 - Application Period 2018/11/05" title="MangaTranslationBattle vol7 - Application Period 2018/11/05">
+  </a>
+<div id="header-menu" ><div class="header-menu-login"><a class="btn-mal-service" href="https://myanimelist.net/membership?_location=mal_h_u">Hide Ads</a><a class="btn-login" href="https://myanimelist.net/login.php?from=%2Ffansub-groups.php%3Fid%3D712" id="malLogin">Login</a><a class="btn-signup" href="https://myanimelist.net/register.php?from=%2Ffansub-groups.php%3Fid%3D712">Sign Up</a></div></div></div>  <div id="menu" class="">
+    <div id="menu_right"><script type="text/x-template" id="incremental-result-item-anime"><div class="list anime" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info anime"><div class="name">${ item.name } <span class="media-type">(${ item.payload.media_type })</span></div><div class="extra-info">Aired: ${ item.payload.aired }<br>Score: ${ item.payload.score }<br>Status: ${ item.payload.status }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info anime"><div class="name">${ item.name }</div><div class="media-type">(${ mediaTypeWithStartYear })</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-manga"><div class="list manga" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info manga"><div class="name">${ item.name } <span class="media-type">(${ item.payload.media_type })</span></div><div class="extra-info">Published: ${ item.payload.published }<br>Score: ${ item.payload.score }<br>Status: ${ item.payload.status }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info manga"><div class="name">${ item.name }</div><div class="media-type">(${ mediaTypeWithStartYear })</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-character"><div class="list character" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info character"><div class="name">${ item.name }</div><div class="extra-info"><ul class="related-works"><li v-for="work in item.payload.related_works" class="fs-i">- ${ work }</li></ul>Favorites: ${ item.payload.favorites }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info character"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-person"><div class="list person" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info person"><div class="name">${ item.name }</div><div class="extra-info"><span v-if="item.payload.alternative_name">${ item.payload.alternative_name }<br></span>Birthday: ${ item.payload.birthday }<br>Favorites: ${ item.payload.favorites }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info person"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-store"><div class="list store" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info store"></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info store"></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-club"><div class="list club" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info club"><div class="name">${ item.name }</div><div class="extra-info">Members: ${ item.payload.members }<br>Category: ${ item.payload.category }<br>Created by: ${ item.payload.created_by }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info club"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-user"><div class="list user" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info user"><div class="name">${ item.name }</div><div class="extra-info"><span v-if="item.payload.authority">${ item.payload.authority }<br></span>Joined: ${ item.payload.joined }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info user"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-news"><div class="list news" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info news"><div class="name">${ item.name }</div><div class="extra-info">${ item.payload.date }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info news"><div class="name">${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-featured"><div class="list featured" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info featured"><div class="name">${ item.name }</div><div class="extra-info">${ item.payload.date }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info featured"><div class="name">${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-forum"><div class="list forum" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info forum"><div class="name"><span v-show="item.payload.work_title">${ item.payload.work_title}
+                      <i class="fa fa-caret-right"></i></span> ${ item.name }</div><div class="extra-info">${ item.payload.date }<br><span>in ${ item.payload.category }</span></div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info forum"><div class="name"><span v-show="item.payload.work_title">${ item.payload.work_title}
+                      <i class="fa fa-caret-right"></i></span> ${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-separator"><div class="list separator"><div class="separator"><span v-show="item.name == 'anime'">Anime</span><span v-show="item.name == 'manga'">Manga</span><span v-show="item.name == 'character'">Characters</span><span v-show="item.name == 'person'">People</span></div></div></script><div id="top-search-bar"><form id="searchBar" method="get" class="searchBar" @submit.prevent="jump()"><div class="form-select-outer fl-l"><select name="type" id="topSearchValue" class="inputtext" v-model="type"><option value="all">All</option><option value="anime">Anime</option><option value="manga">Manga</option><option value="character">Characters</option><option value="person">People</option><option value="store">Manga Store</option><option value="news">News</option><option value="featured">Featured Articles</option><option value="forum">Forum</option><option value="club">Clubs</option><option value="user">Users</option></select></div><input v-model="keyword" id="topSearchText" type="text"
+            name="keyword" class="inputtext fl-l" placeholder="Search Anime, Manga, and more..."
+            size="30" autocomplete="off"
+            @keydown.up.prevent="moveSelection(-1)" @keydown.down.prevent="moveSelection(1)"
+            @focus="isFocused = true" @blur="isFocused = false"><input id="topSearchButon" class="fl-l" :class="{'notActive': (keyword.length < 3)}" type="submit" value="&#xf002"></form><div id="topSearchResultList" class="incrementalSearchResultList" :style="{display: (showResult ? 'block' : 'none')}" @mousedown.prevent=""><div v-for="(item, i) in items" @mouseover="selection=i"><component :is="resolveComponent(item)" :item="item" :focus="selection == i" :url="generateItemPageUrl(item)"></component></div><div class="list list-bottom" :class="{'focus': selection == -1}" @mouseover="selection = -1"
+               :style="{display: (showViewAllLink ? 'block' : 'none')}"><a :href="resultPageUrl">
+              View all results for <span class="fw-b">${ keyword }</span><i v-show="isRequesting" class="fa fa-spinner fa-spin ml4"></i></a></div></div></div></div><div id="menu_left">
+      <ul id="nav">
+        <li class="small"><a href="#" class="non-link">Anime</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/anime.php?_location=mal_h_m">Anime Search</a></li>
+            <li><a href="https://myanimelist.net/topanime.php?_location=mal_h_m">Top Anime</a></li>
+            <li><a href="https://myanimelist.net/anime/season?_location=mal_h_m">Seasonal Anime</a></li>
+                        <li><a href="https://myanimelist.net/watch/episode?_location=mal_h_m_a">Videos</a></li>
+            <li><a href="https://myanimelist.net/reviews.php?t=anime&amp;_location=mal_h_m">Reviews</a></li>
+            <li><a href="https://myanimelist.net/recommendations.php?s=recentrecs&amp;t=anime&amp;_location=mal_h_m">Recommendations</a></li>
+            <li><a href="https://myanimelist.net/forum?topicid=1696289&amp;_location=mal_h_m">2018 Challenge</a></li>
+          </ul>
+        </li>
+        <li class="small"><a href="#" class="non-link">Manga</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/manga.php?_location=mal_h_m">Manga Search</a></li>
+            <li><a href="https://myanimelist.net/topmanga.php?_location=mal_h_m">Top Manga</a></li>
+            <li><a href="https://myanimelist.net/store?_location=mal_h_m">Manga Store</a></li>
+            <li><a href="https://myanimelist.net/reviews.php?t=manga&amp;_location=mal_h_m">Reviews</a></li>
+            <li><a href="https://myanimelist.net/recommendations.php?s=recentrecs&amp;t=manga&amp;_location=mal_h_m">Recommendations</a></li>
+            <li><a href="https://myanimelist.net/forum?topicid=1696290&amp;_location=mal_h_m">2018 Challenge</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="non-link">Community</a>
+          <ul>
+            <li><a href="https://myanimelist.net/forum/?_location=mal_h_m">Forums</a></li>
+            <li><a href="https://myanimelist.net/clubs.php?_location=mal_h_m">Clubs</a></li>
+            <li><a href="https://myanimelist.net/blog.php?_location=mal_h_m">Blogs</a></li>
+            <li><a href="https://myanimelist.net/users.php?_location=mal_h_m">Users</a></li>
+            <li><a href="https://discord.gg/E2xC8ZF">Discord Chat</a></li>
+          </ul>
+        </li>
+        <li class="small2"><a href="#" class="non-link">Industry</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/news?_location=mal_h_m">News</a></li>
+            <li><a href="https://myanimelist.net/featured?_location=mal_h_m">Featured Articles</a></li>
+            <li><a href="https://myanimelist.net/people.php?_location=mal_h_m">People</a></li>
+            <li><a href="https://myanimelist.net/character.php?_location=mal_h_m">Characters</a></li>
+          </ul>
+        </li>
+        <li class="small"><a href="#" class="non-link">Watch</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/watch/episode?_location=mal_h_m">Episode Videos</a></li>
+            <li><a href="https://myanimelist.net/watch/promotion?_location=mal_h_m">Promotional Videos</a></li>
+          </ul>
+        </li>
+        <li class="smaller"><a href="#" class="non-link">Store</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/store?_location=mal_h_m">Manga Store</a></li>
+          </ul>
+        </li>
+        <li class="smaller"><a href="#" class="non-link">Help</a>
+          <ul class="wide">
+            <li><a href="https://myanimelist.net/about.php?_location=mal_h_m">About</a></li>
+            <li><a href="https://myanimelist.net/about.php?go=support&amp;_location=mal_h_m">Support</a></li>
+            <li><a href="https://myanimelist.net/advertising?_location=mal_h_m">Advertising</a></li>
+            <li><a href="https://myanimelist.net/forum/?topicid=515949&amp;_location=mal_h_m">FAQ</a></li>
+            <li><a href="https://myanimelist.net/modules.php?go=report&amp;_location=mal_h_m">Report</a></li>
+            <li><a href="https://myanimelist.net/about.php?go=team&amp;_location=mal_h_m">Staff</a></li><li><a href="https://myanimelist.net/membership?_location=mal_h_m">MAL Supporter</a></li>
+          </ul>
+        </li>
+        
+      
+      </ul>
+    </div>  </div><div id="contentWrapper"><div><h1 class="h1"><span style="float: right; font-weight: normal;"><a href="/panel.php?go=fsg&do=edit&id=712">Edit Group</a></span>Mansão Dos Animes - Fansub Group Information</h1></div><div id="content">
+		<script language="JavaScript">
+		function toggleComments(anime_id)
+		{
+			$("#fsgComments"+anime_id).toggle();
+		}
+		</script>
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		<td width="48%" class="borderClass" style="border-width: 0 1px 0 0; padding-right: 10px;" valign="top">
+		<div class="normal_header">Group Details</div><div class="dark_text" style="margin-bottom: 2px;">Group Name</div>
+		Mansão Dos Animes
+		<br /><br />
+		<div class="dark_text" style="margin-bottom: 2px;">Short Name</div>
+		MDAN
+		<br /><br />
+		<div class="dark_text" style="margin-bottom: 2px;">IRC</div>
+		#mdan@irc.irchighway.net
+		<br /><br />
+		<div class="dark_text" style="margin-bottom: 2px;">Primary Language</div>
+		Brazilian Portuguese
+		<br /><br />
+		
+			<div class="normal_header">Member Opinions & Votes</div>
+			<div class="spaceit_pad">
+			<img src="https://myanimelist.cdn-dena.com/images/good-on.gif"> <strong>2926</strong> users approve
+			</div>
+			<div class="spaceit_pad">
+			<img src="https://myanimelist.cdn-dena.com/images/bad-on.gif"> <strong>300</strong> users disapprove
+			</div>
+			Total: 3226
+			<br />
+			<br />
+			<div class="normal_header">Group Projects</div>
+			<div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5525"><strong>07-Ghost</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>24 of 25 users approve, <a href="javascript:void(0);" onclick="toggleComments(5525);">1 comments</a></small>
+				</div><div id="fsgComments5525" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">perfect</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31646"><strong>3-gatsu no Lion</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 10 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/35180"><strong>3-gatsu no Lion 2nd Season</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 10 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31580"><strong>Ajin</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>30 of 31 users approve, <a href="javascript:void(0);" onclick="toggleComments(31580);">7 comments</a></small>
+				</div><div id="fsgComments31580" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Estou acompanhando! Foda</div><div class="bgColor2 spaceit">MDAN é um dos melhores fansubs do Brasil.</div><div class="bgColor1 spaceit">Awesome as always.</div><div class="bgColor2 spaceit">Ótima legenda!</div><div class="bgColor1 spaceit">MDAN mantendo a qualidade como sempre!</div><div class="bgColor2 spaceit">Queria muito ver esse anime e achei no melhor fansub! Valeu!</div><div class="bgColor1 spaceit">Legenda praticamente perfeita! Qualidade MDAN!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/281"><strong>Akane Maniax</strong></a> <span class="lightLink"><small>OVA - 3 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 20 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/591"><strong>Amaenaide yo!!</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/886"><strong>Amaenaide yo!! Katsu!!</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 18 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3359"><strong>Amatsuki</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>21 of 22 users approve, <a href="javascript:void(0);" onclick="toggleComments(3359);">1 comments</a></small>
+				</div><div id="fsgComments3359" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">It&#039;s very fancy and nice translation</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9989"><strong>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>36 of 38 users approve, <a href="javascript:void(0);" onclick="toggleComments(9989);">1 comments</a></small>
+				</div><div id="fsgComments9989" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">menos atrasado q a maioria, mas muito atrasado d todo jeito</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/11111"><strong>Another</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>47 of 49 users approve, <a href="javascript:void(0);" onclick="toggleComments(11111);">5 comments</a></small>
+				</div><div id="fsgComments11111" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Excelent translation, editing and image resolution.</div><div class="bgColor2 spaceit">They do a pretty good job at translating, and the Karaokes are also enjoyable.</div><div class="bgColor1 spaceit">Foda!</div><div class="bgColor2 spaceit">Another é um ótimo anime que, apesar de muitos terem assistido, não prestaram atenção suficiente ou querem assistir de novo.</div><div class="bgColor1 spaceit">nice</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/21995"><strong>Ao Haru Ride</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 21 users approve, <a href="javascript:void(0);" onclick="toggleComments(21995);">3 comments</a></small>
+				</div><div id="fsgComments21995" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div><div class="bgColor2 spaceit">ótimo animê de romance, gostaria de vê-lo na qualidade gráfica e na tradução bem-feita do pessoal da MDAN.</div><div class="bgColor1 spaceit">perfect</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/7647"><strong>Arakawa Under the Bridge</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>28 of 29 users approve, <a href="javascript:void(0);" onclick="toggleComments(7647);">2 comments</a></small>
+				</div><div id="fsgComments7647" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Muito bem feito pelo grupo MDAN, recomendo^^</div><div class="bgColor2 spaceit">Ótimo trabalho!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9074"><strong>Arakawa Under the Bridge x Bridge</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 21 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2251"><strong>Baccano!</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>51 of 54 users approve, <a href="javascript:void(0);" onclick="toggleComments(2251);">9 comments</a></small>
+				</div><div id="fsgComments2251" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">great fansub for a great anime</div><div class="bgColor2 spaceit">Wonderfull</div><div class="bgColor1 spaceit">Even though there were some minor spelling mistakes and some unnecessary bad words, they made a good job overallApesar de alguns pequenos erros de português e digitação e uns palavrões desnecessários, eles fizeram um bom trabalho</div><div class="bgColor2 spaceit">otimo</div><div class="bgColor1 spaceit">Bom trabalho.... sobre palavroes, a traduçao deve ser sempre fiel... se dizem assim, é justo que o traduzam também!</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Way too many spelling errors. Where&#039;s the TLC? (Muitos erros de grafia. Onde está o revisor?)</div><div class="bgColor1 spaceit">They are the best brazilian fanssub I have met!</div><div class="bgColor2 spaceit">:D</div><div class="bgColor1 spaceit">nice</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1576"><strong>Bakumatsu Kikansetsu Irohanihoheto</strong></a> <span class="lightLink"><small>ONA - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/57"><strong>Beck</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>27 of 29 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/14751"><strong>Bishoujo Senshi Sailor Moon Crystal</strong></a> <span class="lightLink"><small>ONA - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>15 of 16 users approve, <a href="javascript:void(0);" onclick="toggleComments(14751);">1 comments</a></small>
+				</div><div id="fsgComments14751" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Muito bom.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31733"><strong>Bishoujo Senshi Sailor Moon Crystal Season III</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 7 users approve, <a href="javascript:void(0);" onclick="toggleComments(31733);">1 comments</a></small>
+				</div><div id="fsgComments31733" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Best brazilian group</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/889"><strong>Black Lagoon</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>34 of 38 users approve, <a href="javascript:void(0);" onclick="toggleComments(889);">2 comments</a></small>
+				</div><div id="fsgComments889" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">bom</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">na época do lançamento até que era bom, mas hoje deixa muito a desejar. Poderiam refazer.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1519"><strong>Black Lagoon: The Second Barrage</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>24 of 26 users approve, <a href="javascript:void(0);" onclick="toggleComments(1519);">2 comments</a></small>
+				</div><div id="fsgComments1519" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">na época do lançamento até que era bom, mas hoje deixa muito a desejar. Poderiam refazer.</div><div class="bgColor2 spaceit">Só tem dois tipos de gente que fala mal do MDAN: invejosos e haters.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/11633"><strong>Blood Lad</strong></a> <span class="lightLink"><small>TV - 10 episodes</small></span>
+				<div class="spaceit_pad"> <small>27 of 29 users approve, <a href="javascript:void(0);" onclick="toggleComments(11633);">3 comments</a></small>
+				</div><div id="fsgComments11633" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">&gt;animes</div><div class="bgColor2 spaceit">Vi tudo, perfeito!</div><div class="bgColor1 spaceit">--</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31043"><strong>Boku dake ga Inai Machi</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>44 of 50 users approve, <a href="javascript:void(0);" onclick="toggleComments(31043);">9 comments</a></small>
+				</div><div id="fsgComments31043" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Muito bom :)</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Worst translation ever.</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">meeh</div><div class="bgColor2 spaceit">Incredibly well translated and great sync. (As always)</div><div class="bgColor1 spaceit">De longe a melhor legenda em PT-BR, sem contar que não enrolaram para terminar.</div><div class="bgColor2 spaceit">Perfeito!</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">7-1</div><div class="bgColor2 spaceit">Best fansub!</div><div class="bgColor1 spaceit">Pouquíssimos erros. A melhor legenda em PT-BR disponível.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31964"><strong>Boku no Hero Academia</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>91 of 98 users approve, <a href="javascript:void(0);" onclick="toggleComments(31964);">22 comments</a></small>
+				</div><div id="fsgComments31964" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">fansub de qualidade</div><div class="bgColor2 spaceit">GREAT</div><div class="bgColor1 spaceit">Sempre primando pela qualidade ao invés da velocidade (mas confesso que ficaria mt feliz se saísse sempre cedinho xD)!</div><div class="bgColor2 spaceit">The quality and legend is good!</div><div class="bgColor1 spaceit">nice epi</div><div class="bgColor2 spaceit">Awesome as always!</div><div class="bgColor1 spaceit">MDAN is the best Fansub in Brazil, just simple as that.</div><div class="bgColor2 spaceit">So far so good.</div><div class="bgColor1 spaceit">Ótimo trabalho como sempre.</div><div class="bgColor2 spaceit">Qualidade é sempre melhor que velocidade.</div><div class="bgColor1 spaceit">Typesetting well done, great video quality</div><div class="bgColor2 spaceit">They&#039;re the best.</div><div class="bgColor1 spaceit">Pessoal da MDAN faz um trabalho fantástico</div><div class="bgColor2 spaceit">Muito bom o trabalho deles</div><div class="bgColor1 spaceit">nice fansub</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">inaccurate subs</div><div class="bgColor1 spaceit">Obg</div><div class="bgColor2 spaceit">Dispensa comentários... Qualidade MDAN diz tudo!!</div><div class="bgColor1 spaceit">better quality in subtitle</div><div class="bgColor2 spaceit">PERFECT, &#039;&#039;SABE DE NADA, INOCENTE&#039;&#039; KKKK</div><div class="bgColor1 spaceit">Very high quality, they always take their time to finish the things and don&#039;t rush.</div><div class="bgColor2 spaceit">A qualidade da tradução da mdan é muito grande.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/33486"><strong>Boku no Hero Academia 2nd Season</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>24 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(33486);">5 comments</a></small>
+				</div><div id="fsgComments33486" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">a unica coisa q não gostei foi a tradução do q esta em ingles, mas fora isso esta muito bom</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">a fansub não é ruim, mas esse trabalho tá péssimo.</div><div class="bgColor1 spaceit">Muito bom</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Não faz sentido traduzir o nome dos poderes/herois já que no Japão e na America os nomes são os mesmos... só faltou eles traduzirem o nome do All Might para &quot;Todo Forte&quot; e por ai vai...</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Uma fansub GODTIER fazendo um trabalho mediano...</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/35262"><strong>Boku no Hero Academia 2nd Season: Hero Note</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad">
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4177"><strong>Bounen no Xamdou</strong></a> <span class="lightLink"><small>ONA - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>15 of 16 users approve, <a href="javascript:void(0);" onclick="toggleComments(4177);">1 comments</a></small>
+				</div><div id="fsgComments4177" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Ótima tradução!!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6772"><strong>Break Blade 1: Kakusei no Toki</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 9 users approve, <a href="javascript:void(0);" onclick="toggleComments(6772);">2 comments</a></small>
+				</div><div id="fsgComments6772" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">demorando demais, o ANSK já lançou até o 6 faz tempo além d ser muito melhor</div><div class="bgColor2 spaceit">Mesmo lançando depous do ANSK, ainda são bem melhores. Vale a pena a espera.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8514"><strong>Break Blade 2: Ketsubetsu no Michi</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 9 users approve, <a href="javascript:void(0);" onclick="toggleComments(8514);">2 comments</a></small>
+				</div><div id="fsgComments8514" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">demorando demais, o ANSK já lançou até o 6 faz tempo além d ser muito melhor</div><div class="bgColor2 spaceit">Mesmo lançando depous do ANSK, ainda são bem melhores. Vale a pena a espera.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9252"><strong>Break Blade 3: Kyoujin no Ato</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 8 users approve, <a href="javascript:void(0);" onclick="toggleComments(9252);">2 comments</a></small>
+				</div><div id="fsgComments9252" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">demorando demais, o ANSK já lançou até o 6 faz tempo além d ser muito melhor</div><div class="bgColor2 spaceit">Mesmo lançando depous do ANSK, ainda são bem melhores. Vale a pena a espera.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9465"><strong>Break Blade 4: Sanka no Chi</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 8 users approve, <a href="javascript:void(0);" onclick="toggleComments(9465);">1 comments</a></small>
+				</div><div id="fsgComments9465" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">demorando demais, o ANSK já lançou até o 6 faz tempo além d ser muito melhor</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31478"><strong>Bungou Stray Dogs</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>20 of 22 users approve, <a href="javascript:void(0);" onclick="toggleComments(31478);">2 comments</a></small>
+				</div><div id="fsgComments31478" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Quality sub with karaoke and nice subtitles.</div><div class="bgColor2 spaceit">Awesome as always!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/32867"><strong>Bungou Stray Dogs 2nd Season</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 6 users approve, <a href="javascript:void(0);" onclick="toggleComments(32867);">1 comments</a></small>
+				</div><div id="fsgComments32867" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">MDAN é mt boa, mas demooooora XD</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10163"><strong>C: The Money of Soul and Possibility Control</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 19 users approve, <a href="javascript:void(0);" onclick="toggleComments(10163);">2 comments</a></small>
+				</div><div id="fsgComments10163" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">oversubede a versão do ANSK é melhor</div><div class="bgColor2 spaceit">Esse fanboy da ANSK fazendo propaganda hater no melhor fansub do Brasil chega a dar dó... vai achar o que fazer, fio!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5356"><strong>Canaan</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(5356);">1 comments</a></small>
+				</div><div id="fsgComments5356" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Nice work!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/388"><strong>Capeta</strong></a> <span class="lightLink"><small>TV - 52 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/28999"><strong>Charlotte</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>23 of 24 users approve, <a href="javascript:void(0);" onclick="toggleComments(28999);">4 comments</a></small>
+				</div><div id="fsgComments28999" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Ótima tradução e qualidade. Valeu MDAN!!!</div><div class="bgColor2 spaceit">Muito bom!</div><div class="bgColor1 spaceit">Legendas muito bem editadas</div><div class="bgColor2 spaceit">A great and old Brazilian fansub! One of the best. A functional tracker with a lot of well done works, from translation to the flie quality. The MDAN make a excellent job for years now!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10800"><strong>Chihayafuru</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>26 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(10800);">6 comments</a></small>
+				</div><div id="fsgComments10800" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Possui uma tradução muito boa.</div><div class="bgColor2 spaceit">because it&#039;s awesome</div><div class="bgColor1 spaceit">Tradução e Edição Perfeitas :D</div><div class="bgColor2 spaceit">Eles são a MDAN, só isso basta</div><div class="bgColor1 spaceit">Excelent translation, editing and image resolution.</div><div class="bgColor2 spaceit">Edição e qualidade boas, so nao entendi porque traduziram a alcunha do Taichi como &quot;Batman&quot;... o.o</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/14397"><strong>Chihayafuru 2</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 13 users approve, <a href="javascript:void(0);" onclick="toggleComments(14397);">2 comments</a></small>
+				</div><div id="fsgComments14397" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">perfect translation</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Mais lento que corrida de tartaruga.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1818"><strong>Claymore</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>46 of 48 users approve, <a href="javascript:void(0);" onclick="toggleComments(1818);">6 comments</a></small>
+				</div><div id="fsgComments1818" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">the best</div><div class="bgColor2 spaceit">Great job!</div><div class="bgColor1 spaceit">great!!! =]</div><div class="bgColor2 spaceit">Great subs!!! Wonderful Anime!!!</div><div class="bgColor1 spaceit">Trabalho sensacional.</div><div class="bgColor2 spaceit">Great anime</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8142"><strong>Colorful (Movie)</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(8142);">1 comments</a></small>
+				</div><div id="fsgComments8142" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Lindo!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8915"><strong>Dantalian no Shoka</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 13 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2025"><strong>Darker than Black: Kuro no Keiyakusha</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>37 of 40 users approve, <a href="javascript:void(0);" onclick="toggleComments(2025);">3 comments</a></small>
+				</div><div id="fsgComments2025" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">good quality and type</div><div class="bgColor2 spaceit">great</div><div class="bgColor1 spaceit">Very good adaptation,and grammar.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/7338"><strong>Darker than Black: Kuro no Keiyakusha Gaiden</strong></a> <span class="lightLink"><small>Special - 4 episodes</small></span>
+				<div class="spaceit_pad"> <small>17 of 19 users approve, <a href="javascript:void(0);" onclick="toggleComments(7338);">1 comments</a></small>
+				</div><div id="fsgComments7338" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">bad subtitles</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6573"><strong>Darker than Black: Ryuusei no Gemini</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>18 of 19 users approve, <a href="javascript:void(0);" onclick="toggleComments(6573);">1 comments</a></small>
+				</div><div id="fsgComments6573" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Como sempre dando show MDAN</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6880"><strong>Deadman Wonderland</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 21 users approve, <a href="javascript:void(0);" onclick="toggleComments(6880);">1 comments</a></small>
+				</div><div id="fsgComments6880" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Encode meio estranho, mas ainda sim muito bom</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31163"><strong>Dimension W</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 20 users approve, <a href="javascript:void(0);" onclick="toggleComments(31163);">2 comments</a></small>
+				</div><div id="fsgComments31163" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Obg</div><div class="bgColor2 spaceit">Muito bom!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6746"><strong>Durarara!!</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>52 of 57 users approve, <a href="javascript:void(0);" onclick="toggleComments(6746);">4 comments</a></small>
+				</div><div id="fsgComments6746" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Diversos erros de tradução. &quot;He&#039;s a trap&quot; = &quot;Ele é uma armadilha&quot;, etc.</div><div class="bgColor2 spaceit">The subs were perfect, the timing and the karaoke were neat and i didn&#039;t notice any typo.</div><div class="bgColor1 spaceit">Great</div><div class="bgColor2 spaceit">Pra mim, Durarara!! é a cara da MDAN, primeiro projeto que acompanhei semanalmente. Um trabalho fantástico do fansub.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8408"><strong>Durarara!! Specials</strong></a> <span class="lightLink"><small>Special - 2 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 17 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/27833"><strong>Durarara!!x2 Ketsu</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 11 users approve, <a href="javascript:void(0);" onclick="toggleComments(27833);">2 comments</a></small>
+				</div><div id="fsgComments27833" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Fazem um ótimo trabalho como fansub... sem dúvidas um dos melhores do BR.</div><div class="bgColor2 spaceit">mdan é simplesmente perfeito e faz um tabalho excepcional, simplesmente top</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/23199"><strong>Durarara!!x2 Shou</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 16 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/27831"><strong>Durarara!!x2 Ten</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>17 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(27831);">1 comments</a></small>
+				</div><div id="fsgComments27831" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">MDAN is MDAN dad</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6702"><strong>Fairy Tail</strong></a> <span class="lightLink"><small>TV - 175 episodes</small></span>
+				<div class="spaceit_pad"> <small>49 of 55 users approve, <a href="javascript:void(0);" onclick="toggleComments(6702);">9 comments</a></small>
+				</div><div id="fsgComments6702" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Melhor tradução BR</div><div class="bgColor2 spaceit">I loved this fansub and I&#039;m loving, because it is the subber that has the best quallity of image I&#039;ve ever saw *-*</div><div class="bgColor1 spaceit">Awesome translation!</div><div class="bgColor2 spaceit">Best subtitles and image quality, but slow T_T</div><div class="bgColor1 spaceit">Great job in subtitle and video.</div><div class="bgColor2 spaceit">Perfeito!</div><div class="bgColor1 spaceit">O melhor fansub br que fez FT.</div><div class="bgColor2 spaceit">Simply THE BEST!</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Vários encodes dessa época eram péssimos... Inúmeras pessoas relataram, mas o ego era grande demais pra mudarem. Bom, isso era problema de um ou dois membros apenas, mas Fairy Tail sofreu...</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/22043"><strong>Fairy Tail (2014)</strong></a> <span class="lightLink"><small>TV - 102 episodes</small></span>
+				<div class="spaceit_pad"> <small>31 of 32 users approve, <a href="javascript:void(0);" onclick="toggleComments(22043);">4 comments</a></small>
+				</div><div id="fsgComments22043" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div><div class="bgColor2 spaceit">Extremely good work, always. Simple as that.</div><div class="bgColor1 spaceit">Continuam bons, mas estão muito mais lentos que o normal nesse aqui.</div><div class="bgColor2 spaceit">Suspeito pra dizer, afinal acompanho o anime por eles hahaha!! Embora com atraso, é uma fansub excepcional pela sua qualidade e trabalho dedicado para com os fãs!! Recomendo à todos, e principalmente para quem busca qualidade =D</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9982"><strong>Fairy Tail OVA</strong></a> <span class="lightLink"><small>OVA - 5 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 19 users approve, <a href="javascript:void(0);" onclick="toggleComments(9982);">4 comments</a></small>
+				</div><div id="fsgComments9982" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">vários meses d atraso</div><div class="bgColor2 spaceit">Awesome translation!</div><div class="bgColor1 spaceit">Perfeito!</div><div class="bgColor2 spaceit">acho engraçado gente reclamando de atraso quando os caras fazem de graça e as pessoas baixam de graça...</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31376"><strong>Flying Witch</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>39 of 41 users approve, <a href="javascript:void(0);" onclick="toggleComments(31376);">9 comments</a></small>
+				</div><div id="fsgComments31376" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">the best brazilian sub</div><div class="bgColor2 spaceit">Sempre um bom trabalho.</div><div class="bgColor1 spaceit">Melhor Fansub BR</div><div class="bgColor2 spaceit">nice subs</div><div class="bgColor1 spaceit">São bons dms!</div><div class="bgColor2 spaceit">MDAN Always!</div><div class="bgColor1 spaceit">Melhor de todos!</div><div class="bgColor2 spaceit">Um dos poucos fansbus das antigas que ainda valoriza o feito de fã para fãs. Preservando uma tradução limpa e coerente com raws de qualidade e uma equipe competente!</div><div class="bgColor1 spaceit">Obg</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1747"><strong>Freedom</strong></a> <span class="lightLink"><small>OVA - 7 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve, <a href="javascript:void(0);" onclick="toggleComments(1747);">1 comments</a></small>
+				</div><div id="fsgComments1747" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">otimo</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/126"><strong>Futakoi Alternative</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/25183"><strong>Gangsta.</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>25 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(25183);">5 comments</a></small>
+				</div><div id="fsgComments25183" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Imbatíveis!</div><div class="bgColor2 spaceit">Ótima tradução, encode, karaokê, typeset.</div><div class="bgColor1 spaceit">muito bom legenda coerente e flexível</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">brazilian portuguese is the worst</div><div class="bgColor1 spaceit">Eles são a MDAN, só isso basta!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/132"><strong>GetBackers</strong></a> <span class="lightLink"><small>TV - 49 episodes</small></span>
+				<div class="spaceit_pad"> <small>13 of 14 users approve, <a href="javascript:void(0);" onclick="toggleComments(132);">1 comments</a></small>
+				</div><div id="fsgComments132" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Bom</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1571"><strong>Ghost Hunt</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(1571);">2 comments</a></small>
+				</div><div id="fsgComments1571" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">decente, nada de errado.</div><div class="bgColor2 spaceit">ótimo trabalho!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/18411"><strong>Gingitsune</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10271"><strong>Gyakkyou Burai Kaiji: Hakairoku-hen</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>13 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(10271);">3 comments</a></small>
+				</div><div id="fsgComments10271" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">muito atrasado</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">lento.</div><div class="bgColor1 spaceit">great</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3002"><strong>Gyakkyou Burai Kaiji: Ultimate Survivor</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>23 of 24 users approve, <a href="javascript:void(0);" onclick="toggleComments(3002);">5 comments</a></small>
+				</div><div id="fsgComments3002" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">decente</div><div class="bgColor2 spaceit">bom trabalho</div><div class="bgColor1 spaceit">Qualidade na legenda, poucos erros de português.</div><div class="bgColor2 spaceit">Ótimo trabalho.</div><div class="bgColor1 spaceit">They could do the opening karaoke less exaggerated.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/16"><strong>Hachimitsu to Clover</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>21 of 22 users approve, <a href="javascript:void(0);" onclick="toggleComments(16);">2 comments</a></small>
+				</div><div id="fsgComments16" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito</div><div class="bgColor2 spaceit">HIgh Quality. Subs perfectas</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1142"><strong>Hachimitsu to Clover II</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>15 of 16 users approve, <a href="javascript:void(0);" onclick="toggleComments(1142);">3 comments</a></small>
+				</div><div id="fsgComments1142" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">null</div><div class="bgColor2 spaceit">undefined</div><div class="bgColor1 spaceit">*-* eles são fodas</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/20583"><strong>Haikyuu!!</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>28 of 33 users approve, <a href="javascript:void(0);" onclick="toggleComments(20583);">1 comments</a></small>
+				</div><div id="fsgComments20583" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">MDAN FTW</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6895"><strong>Hakuouki</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 7 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9065"><strong>Hakuouki Hekketsuroku</strong></a> <span class="lightLink"><small>TV - 10 episodes</small></span>
+				<div class="spaceit_pad"> <small>5 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5630"><strong>Higashi no Eden</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>15 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(5630);">2 comments</a></small>
+				</div><div id="fsgComments5630" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">This is the best Brasilian Fansub!!! MDAN forever!!!</div><div class="bgColor2 spaceit">Very good and traditional fansub group anime.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6372"><strong>Higashi no Eden Movie I: The King of Eden</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/910"><strong>Himawari!</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8426"><strong>Hourou Musuko</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/136"><strong>Hunter x Hunter</strong></a> <span class="lightLink"><small>TV - 62 episodes</small></span>
+				<div class="spaceit_pad"> <small>33 of 36 users approve, <a href="javascript:void(0);" onclick="toggleComments(136);">4 comments</a></small>
+				</div><div id="fsgComments136" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">poor</div><div class="bgColor2 spaceit">great job</div><div class="bgColor1 spaceit">Simply THE BEST!</div><div class="bgColor2 spaceit">Clássico, perfeito.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/11061"><strong>Hunter x Hunter (2011)</strong></a> <span class="lightLink"><small>TV - 148 episodes</small></span>
+				<div class="spaceit_pad"> <small>131 of 141 users approve, <a href="javascript:void(0);" onclick="toggleComments(11061);">30 comments</a></small>
+				</div><div id="fsgComments11061" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">&quot;Not english.&quot; Get out american.</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Not english.</div><div class="bgColor1 spaceit">Best translation and karaoke.</div><div class="bgColor2 spaceit">Melhor Fansub EVER!</div><div class="bgColor1 spaceit">Muito bom.</div><div class="bgColor2 spaceit">Perfect.</div><div class="bgColor1 spaceit">Não sei se escrevo em português ou inglês... Enfim, simplesmente pela qualidade da tradução e das legendas que sempre têm boas fontes e tamanhos</div><div class="bgColor2 spaceit">accurate</div><div class="bgColor1 spaceit">great job, the best quality</div><div class="bgColor2 spaceit">Perfeito!</div><div class="bgColor1 spaceit">Um dos poucos lugares pra encontrar Hunter x Hunter em boa qualidade...</div><div class="bgColor2 spaceit">They use the original names,without any changes. They do a really good work.</div><div class="bgColor1 spaceit">Ótima qualidade de vídeo e legenda!</div><div class="bgColor2 spaceit">Incrível, ainda acho que este adjetivo é insuficiente para dizer o quão bom foi o trabalho e dedicação</div><div class="bgColor1 spaceit">trabalho muito bem feito, pecou apenas invertendo o sexo de alguns personagens no final</div><div class="bgColor2 spaceit">Perfect</div><div class="bgColor1 spaceit">Só maluco (ou burro) pra preterir esse anime by MDAN! Mais que perfeito!</div><div class="bgColor2 spaceit">Simply THE BEST!</div><div class="bgColor1 spaceit">Melhor fansub brasileiro, de longe.</div><div class="bgColor2 spaceit">Ils son incroyablement pres de la perfection.</div><div class="bgColor1 spaceit">Perfect timing, perfect font, perfect size, no joking on the subs.</div><div class="bgColor2 spaceit">boa legenda</div><div class="bgColor1 spaceit">Ótimas legendas</div><div class="bgColor2 spaceit">A escolha de palavras é ótima, facilita a compreensão, e você percebe o esforço que eles botam, mesmo sendo um trabalho de fã.</div><div class="bgColor1 spaceit">topper</div><div class="bgColor2 spaceit">Melhor do Brasil!</div><div class="bgColor1 spaceit">Não consigo pensar em uma coisa pra reclamar dessa legenda.
+Cada texto não importa por quanto tempo fique na tela não só é traduzido como é integrado no anime</div><div class="bgColor2 spaceit">Queria aprovar 100 vezes</div><div class="bgColor1 spaceit">Ótima legenda, apesar de eles tirarem as letras das músicas da bunda</div><div class="bgColor2 spaceit">A melhor tradução de Hunter x Hunter da web!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/13271"><strong>Hunter x Hunter Movie 1: Phantom Rouge</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(13271);">1 comments</a></small>
+				</div><div id="fsgComments13271" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/19951"><strong>Hunter x Hunter Movie 2: The Last Mission</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 9 users approve, <a href="javascript:void(0);" onclick="toggleComments(19951);">1 comments</a></small>
+				</div><div id="fsgComments19951" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/138"><strong>Hunter x Hunter: Greed Island</strong></a> <span class="lightLink"><small>OVA - 8 episodes</small></span>
+				<div class="spaceit_pad"> <small>21 of 22 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/139"><strong>Hunter x Hunter: Greed Island Final</strong></a> <span class="lightLink"><small>OVA - 14 episodes</small></span>
+				<div class="spaceit_pad"> <small>22 of 25 users approve, <a href="javascript:void(0);" onclick="toggleComments(139);">1 comments</a></small>
+				</div><div id="fsgComments139" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">very bad</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/137"><strong>Hunter x Hunter: Yorkshin City Kanketsu-hen</strong></a> <span class="lightLink"><small>OVA - 8 episodes</small></span>
+				<div class="spaceit_pad"> <small>25 of 26 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6610"><strong>Ibara no Ou</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 7 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/34542"><strong>Inuyashiki</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad">
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9041"><strong>IS: Infinite Stratos</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 9 users approve, <a href="javascript:void(0);" onclick="toggleComments(9041);">2 comments</a></small>
+				</div><div id="fsgComments9041" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Mdam encoda como se estivessemos em 2004 ainda!</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">oversubed e atrasado como d praxe</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/228"><strong>Jigoku Shoujo</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>23 of 26 users approve, <a href="javascript:void(0);" onclick="toggleComments(228);">3 comments</a></small>
+				</div><div id="fsgComments228" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">bom</div><div class="bgColor2 spaceit">Qualidade ótima. :3</div><div class="bgColor1 spaceit">muito bom!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1594"><strong>Jigoku Shoujo Futakomori</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>14 of 15 users approve, <a href="javascript:void(0);" onclick="toggleComments(1594);">1 comments</a></small>
+				</div><div id="fsgComments1594" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Alguns errinhos, mas num geral, muito bom.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3713"><strong>Jigoku Shoujo Mitsuganae</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 10 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/16009"><strong>Kamisama no Inai Nichiyoubi</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 10 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10568"><strong>Kamisama no Memochou</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve, <a href="javascript:void(0);" onclick="toggleComments(10568);">1 comments</a></small>
+				</div><div id="fsgComments10568" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfect work all around, totally worth the download.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/32491"><strong>Kanojo to Kanojo no Neko: Everything Flows</strong></a> <span class="lightLink"><small>TV - 4 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2593"><strong>Kara no Kyoukai 1: Fukan Fuukei</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>9 of 10 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3782"><strong>Kara no Kyoukai 2: Satsujin Kousatsu (Zen)</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 7 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3783"><strong>Kara no Kyoukai 3: Tsuukaku Zanryuu</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4280"><strong>Kara no Kyoukai 4: Garan no Dou</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>8 of 9 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4282"><strong>Kara no Kyoukai 5: Mujun Rasen</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5204"><strong>Kara no Kyoukai 6: Boukyaku Rokuon</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5205"><strong>Kara no Kyoukai 7: Satsujin Kousatsu (Kou)</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6594"><strong>Katanagatari</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>22 of 23 users approve, <a href="javascript:void(0);" onclick="toggleComments(6594);">1 comments</a></small>
+				</div><div id="fsgComments6594" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Qualidade sensacional, a versão definitiva desse anime.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6045"><strong>Kimi ni Todoke</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>18 of 21 users approve, <a href="javascript:void(0);" onclick="toggleComments(6045);">2 comments</a></small>
+				</div><div id="fsgComments6045" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Ótimo trabalho</div><div class="bgColor2 spaceit">Muito bom, mas bem que poderiam lançar a série em Bluray.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9656"><strong>Kimi ni Todoke 2nd Season</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/22535"><strong>Kiseijuu: Sei no Kakuritsu</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>22 of 32 users approve, <a href="javascript:void(0);" onclick="toggleComments(22535);">8 comments</a></small>
+				</div><div id="fsgComments22535" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">fansub ~ feels like a garbage</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Só questão de afinidade.</div><div class="bgColor1 spaceit">São os melhores, não entendo pq há pessoas que votam contra por aqui XD~ (deve ser uma pusta inveja!!)</div><div class="bgColor2 spaceit">Trabalho perfeito, como sempre! Fora haters!</div><div class="bgColor1 spaceit">Only a few errors</div><div class="bgColor2 spaceit">Simply THE BEST!</div><div class="bgColor1 spaceit">No Brasil, ninguém faz melhor. Só invejosos que não enxergam o que é bom.</div><div class="bgColor2 spaceit">excelente fansub um dos melhores ,senão O MELHOR fansub do brasil.
+e aqui é pra julgar como foi esta o trabalho do fansub não se o anime,filme,ova ,etc e ruim ou bom.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5678"><strong>Kobato.</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/16782"><strong>Kotonoha no Niwa</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3653"><strong>Kurogane no Linebarrels</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9834"><strong>Level E</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(9834);">1 comments</a></small>
+				</div><div id="fsgComments9834" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">ótima qualidade de vídeo e legenda :D</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/20785"><strong>Mahouka Koukou no Rettousei</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>5 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/23341"><strong>Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka!</strong></a> <span class="lightLink"><small>ONA - 6 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/627"><strong>Major S1</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>13 of 14 users approve, <a href="javascript:void(0);" onclick="toggleComments(627);">3 comments</a></small>
+				</div><div id="fsgComments627" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">fansubber foda</div><div class="bgColor2 spaceit">Tradução excelente, legendas bem feitas.</div><div class="bgColor1 spaceit">Mito.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/558"><strong>Major S2</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(558);">3 comments</a></small>
+				</div><div id="fsgComments558" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">fansuber foda!</div><div class="bgColor2 spaceit">Tradução excelente, legendas bem feitas.</div><div class="bgColor1 spaceit">Mito.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1842"><strong>Major S3</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>12 of 13 users approve, <a href="javascript:void(0);" onclick="toggleComments(1842);">2 comments</a></small>
+				</div><div id="fsgComments1842" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Nice explanation and overall translation</div><div class="bgColor2 spaceit">Mitagem.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3226"><strong>Major S4</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>12 of 13 users approve, <a href="javascript:void(0);" onclick="toggleComments(3226);">3 comments</a></small>
+				</div><div id="fsgComments3226" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">otimo</div><div class="bgColor2 spaceit">Mito.</div><div class="bgColor1 spaceit">Perfeito</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5028"><strong>Major S5</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>8 of 9 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/93"><strong>Mobile Suit Gundam SEED</strong></a> <span class="lightLink"><small>TV - 50 episodes</small></span>
+				<div class="spaceit_pad"> <small>13 of 15 users approve, <a href="javascript:void(0);" onclick="toggleComments(93);">1 comments</a></small>
+				</div><div id="fsgComments93" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Qualidade de video meia-boca.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/94"><strong>Mobile Suit Gundam SEED Destiny</strong></a> <span class="lightLink"><small>TV - 50 episodes</small></span>
+				<div class="spaceit_pad"> <small>14 of 16 users approve, <a href="javascript:void(0);" onclick="toggleComments(94);">3 comments</a></small>
+				</div><div id="fsgComments94" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Only MDAN is perfect.</div><div class="bgColor2 spaceit">otimo</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Economizaram bastante na qualidade de vídeo, apesar de estar bem traduzido.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2298"><strong>Mobile Suit Gundam SEED: After-Phase Between the Stars</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2246"><strong>Mononoke</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve, <a href="javascript:void(0);" onclick="toggleComments(2246);">1 comments</a></small>
+				</div><div id="fsgComments2246" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4879"><strong>Mouryou no Hako</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6736"><strong>Mouryou no Hako: Chuuzenji Atsuko no Jikenbo - Hako no Yurei no Koto</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/23755"><strong>Nanatsu no Taizai</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>31 of 37 users approve, <a href="javascript:void(0);" onclick="toggleComments(23755);">7 comments</a></small>
+				</div><div id="fsgComments23755" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Tarda mas não falha!</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">wrong translations</div><div class="bgColor1 spaceit">Best BR-sub on this show.</div><div class="bgColor2 spaceit">O carinha que escreveu &quot;chance de mais um projeto incompleto&quot; só pode ser funcionário da Dilma... ta lá, mais um projeto COMPLETO! (E com qualidade)</div><div class="bgColor1 spaceit">Simply THE BEST!</div><div class="bgColor2 spaceit">Melhor fansub brasileiro neste anime.</div><div class="bgColor1 spaceit">O anime que não é completo , mais fansub legendo tudo que saiu então esta COMPLETO!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1210"><strong>NHK ni Youkoso!</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>55 of 58 users approve, <a href="javascript:void(0);" onclick="toggleComments(1210);">10 comments</a></small>
+				</div><div id="fsgComments1210" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">perfeito.</div><div class="bgColor2 spaceit">Very good.</div><div class="bgColor1 spaceit">well done</div><div class="bgColor2 spaceit">ótima qualidade e tradução</div><div class="bgColor1 spaceit">nice job~</div><div class="bgColor2 spaceit">Bem traduzido e com explicações das referências!</div><div class="bgColor1 spaceit">Boa sincronização, tradução correta, explicação de termos japoneses e etc.</div><div class="bgColor2 spaceit">É uma tradução esforçada, tem as explicações de gírias/tradições do Japão. Mas tem uns diálogos que poderiam ter traduzido melhor, poderiam ter usado palavras que se usam aqui no Brasil mesmo. Mas a tradução é boa sim.</div><div class="bgColor1 spaceit">They are the most professional about their job there is in anime subbing.</div><div class="bgColor2 spaceit">one fansub the bestting than fansubs from brazil</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1243"><strong>Night Head Genesis</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(1243);">1 comments</a></small>
+				</div><div id="fsgComments1243" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">bom</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3673"><strong>Nijuu Mensou no Musume</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>8 of 9 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/21177"><strong>Nobunaga the Fool</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 7 users approve, <a href="javascript:void(0);" onclick="toggleComments(21177);">1 comments</a></small>
+				</div><div id="fsgComments21177" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">MDAN FTW</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1698"><strong>Nodame Cantabile</strong></a> <span class="lightLink"><small>TV - 23 episodes</small></span>
+				<div class="spaceit_pad"> <small>14 of 15 users approve, <a href="javascript:void(0);" onclick="toggleComments(1698);">2 comments</a></small>
+				</div><div id="fsgComments1698" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">=P</div><div class="bgColor2 spaceit">Qualidade ótima como sempre.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5690"><strong>Nodame Cantabile Finale</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8038"><strong>Nodame Cantabile Finale Special</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>1 of 1 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6187"><strong>Nodame Cantabile OVA</strong></a> <span class="lightLink"><small>OVA - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/8190"><strong>Nodame Cantabile OVA 2</strong></a> <span class="lightLink"><small>OVA - 1 episodes</small></span>
+				<div class="spaceit_pad">
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3965"><strong>Nodame Cantabile Special</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4477"><strong>Nodame Cantabile: Paris-hen</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/20507"><strong>Noragami</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>26 of 29 users approve, <a href="javascript:void(0);" onclick="toggleComments(20507);">1 comments</a></small>
+				</div><div id="fsgComments20507" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/30503"><strong>Noragami Aragoto</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>33 of 35 users approve, <a href="javascript:void(0);" onclick="toggleComments(30503);">6 comments</a></small>
+				</div><div id="fsgComments30503" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div><div class="bgColor2 spaceit">Karaokês fodas e ótima tradução!</div><div class="bgColor1 spaceit">Muito bom!</div><div class="bgColor2 spaceit">Melhor fansub!</div><div class="bgColor1 spaceit">Ótimo trabalho como sempre</div><div class="bgColor2 spaceit">The font doesnt fade with the background colors and it is always timed perfectly</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/7592"><strong>Nurarihyon no Mago</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>13 of 13 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10049"><strong>Nurarihyon no Mago: Sennen Makyou</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/30276"><strong>One Punch Man</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>60 of 67 users approve, <a href="javascript:void(0);" onclick="toggleComments(30276);">14 comments</a></small>
+				</div><div id="fsgComments30276" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Mdan é foda.</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">BRBRBRHUEHUEHUE</div><div class="bgColor1 spaceit">:D</div><div class="bgColor2 spaceit">Really good end well done subtitles.</div><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Raw horrível e tradução péssima.</div><div class="bgColor2 spaceit">Muito bom</div><div class="bgColor1 spaceit">De longe o melhor!</div><div class="bgColor2 spaceit">Melhor fansub do Brasil neste projeto!!</div><div class="bgColor1 spaceit">Melhor fansub!</div><div class="bgColor2 spaceit">Tradução mais sem sincronizada e português mais correto.</div><div class="bgColor1 spaceit">MDAN é show</div><div class="bgColor2 spaceit">MDAN melhor fansub BR ever :)</div><div class="bgColor1 spaceit">Black Lagoon</div><div class="bgColor2 spaceit">qualidade</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31772"><strong>One Punch Man Specials</strong></a> <span class="lightLink"><small>Special - 6 episodes</small></span>
+				<div class="spaceit_pad"> <small>24 of 26 users approve, <a href="javascript:void(0);" onclick="toggleComments(31772);">5 comments</a></small>
+				</div><div id="fsgComments31772" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">best fansub</div><div class="bgColor2 spaceit">nice subs</div><div class="bgColor1 spaceit">Melhor fansub BR</div><div class="bgColor2 spaceit">Awesome typing, translation and community.</div><div class="bgColor1 spaceit">Superb</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31704"><strong>One Punch Man: Road to Hero</strong></a> <span class="lightLink"><small>OVA - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/32729"><strong>Orange</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>3 of 3 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/107"><strong>Ou Dorobou Jing</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/108"><strong>Ou Dorobou Jing in Seventh Heaven</strong></a> <span class="lightLink"><small>OVA - 3 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3366"><strong>Persona: Trinity Soul</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 15 users approve, <a href="javascript:void(0);" onclick="toggleComments(3366);">1 comments</a></small>
+				</div><div id="fsgComments3366" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">They do a very well done work. The video raws are great, the subs are perfect and they always complete the projects.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/438"><strong>Phantom The Animation</strong></a> <span class="lightLink"><small>OVA - 3 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5682"><strong>Phantom: Requiem for the Phantom</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>17 of 18 users approve, <a href="javascript:void(0);" onclick="toggleComments(5682);">1 comments</a></small>
+				</div><div id="fsgComments5682" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Awesome typing, translation and community.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/9981"><strong>Phi Brain: Kami no Puzzle</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1538"><strong>Pumpkin Scissors</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve, <a href="javascript:void(0);" onclick="toggleComments(1538);">1 comments</a></small>
+				</div><div id="fsgComments1538" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">God work!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/19315"><strong>Pupa</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve, <a href="javascript:void(0);" onclick="toggleComments(19315);">1 comments</a></small>
+				</div><div id="fsgComments19315" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5656"><strong>PuriGorota: Uchuu no Yuujou Daibouken</strong></a> <span class="lightLink"><small>OVA - 1 episodes</small></span>
+				<div class="spaceit_pad">
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6114"><strong>Rainbow: Nisha Rokubou no Shichinin</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>15 of 16 users approve, <a href="javascript:void(0);" onclick="toggleComments(6114);">1 comments</a></small>
+				</div><div id="fsgComments6114" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Muito bom. xD</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3363"><strong>RD Sennou Chousashitsu</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>5 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31240"><strong>Re:Zero kara Hajimeru Isekai Seikatsu</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>21 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(31240);">2 comments</a></small>
+				</div><div id="fsgComments31240" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Clear translation and well explained details.</div><div class="bgColor2 spaceit">cuz i like it</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1601"><strong>Red Garden</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>5 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/957"><strong>Saiunkoku Monogatari</strong></a> <span class="lightLink"><small>TV - 39 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 6 users approve, <a href="javascript:void(0);" onclick="toggleComments(957);">1 comments</a></small>
+				</div><div id="fsgComments957" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Tradução meio confusa :(</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1914"><strong>Saiunkoku Monogatari 2nd Season</strong></a> <span class="lightLink"><small>TV - 39 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/12531"><strong>Sakamichi no Apollon</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>20 of 22 users approve, <a href="javascript:void(0);" onclick="toggleComments(12531);">2 comments</a></small>
+				</div><div id="fsgComments12531" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Excelent work!</div><div class="bgColor2 spaceit">great job ♥</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/7588"><strong>Saraiya Goyou</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/1827"><strong>Seirei no Moribito</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>24 of 25 users approve, <a href="javascript:void(0);" onclick="toggleComments(1827);">7 comments</a></small>
+				</div><div id="fsgComments1827" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">great</div><div class="bgColor2 spaceit">excelent quality</div><div class="bgColor1 spaceit">the quality is great! And it is a very good fansub group!</div><div class="bgColor2 spaceit">Awesome!!!!</div><div class="bgColor1 spaceit">perfeito!</div><div class="bgColor2 spaceit">good subtitles</div><div class="bgColor1 spaceit">MDAN is Good</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2104"><strong>Seto no Hanayome</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>17 of 20 users approve, <a href="javascript:void(0);" onclick="toggleComments(2104);">7 comments</a></small>
+				</div><div id="fsgComments2104" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">gostei foi do krk lol</div><div class="bgColor2 spaceit">Currently, the best PT-BR sub making Seto no Hanayome</div><div class="bgColor1 spaceit">I&#039;m of this fansub.</div><div class="bgColor2 spaceit">Very Good</div><div class="bgColor1 spaceit">Very good, no spelling error and no slang which I really dislike.</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Whiteboy7thst GOLD MEDAL CHAMPION bro</div><div class="bgColor1 spaceit">Muito bom...Nao intendo pq o povo fala em inglês se o fansub é brasileiro... ¬¬</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/23273"><strong>Shigatsu wa Kimi no Uso</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>41 of 48 users approve, <a href="javascript:void(0);" onclick="toggleComments(23273);">6 comments</a></small>
+				</div><div id="fsgComments23273" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Best sub</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">MDAN já foi um bom fansub</div><div class="bgColor1 spaceit">Perfeito!!!
+(só faltou traduzir uma carta no episódio 21, mas tem perdão)</div><div class="bgColor2 spaceit">Best BR sub ever!</div><div class="bgColor1 spaceit">Haters, gonna Hate.
+Os outros, sabem o que é bom: MDAN!</div><div class="bgColor2 spaceit">Melhor fansub brasileiro neste anime.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/16498"><strong>Shingeki no Kyojin</strong></a> <span class="lightLink"><small>TV - 25 episodes</small></span>
+				<div class="spaceit_pad"> <small>27 of 32 users approve, <a href="javascript:void(0);" onclick="toggleComments(16498);">1 comments</a></small>
+				</div><div id="fsgComments16498" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">&quot;Fansubam&quot; como se estivessemos em 2006. Fansub dos tempos das cavernas agindo como se estivesse no tempo das cavernas.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/25777"><strong>Shingeki no Kyojin Season 2</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 4 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/2596"><strong>Shinreigari: Ghost Hound</strong></a> <span class="lightLink"><small>TV - 22 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(2596);">2 comments</a></small>
+				</div><div id="fsgComments2596" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">otimo trabalho</div><div class="bgColor2 spaceit">bom,</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/152"><strong>Solty Rei</strong></a> <span class="lightLink"><small>TV - 24 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 7 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3138"><strong>Solty Rei Special</strong></a> <span class="lightLink"><small>Special - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>2 of 3 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/20057"><strong>Space☆Dandy</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 18 users approve, <a href="javascript:void(0);" onclick="toggleComments(20057);">2 comments</a></small>
+				</div><div id="fsgComments20057" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Ficou muito bem feita a versão do MDAN, com os types, karaokês bem legais e ótima qualidade de vídeo e áudio. Sendo um pouco mais crítica com a tradução, creio que teve algumas poucas linhas que até poderiam ter sido melhor adaptadas, mas no gera</div><div class="bgColor2 spaceit">Perfeito!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/28621"><strong>Subete ga F ni Naru: The Perfect Insider</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 18 users approve, <a href="javascript:void(0);" onclick="toggleComments(28621);">7 comments</a></small>
+				</div><div id="fsgComments28621" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Melhor Fansub de Subete Ga F.</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Muitas frases com erro de concordância e alguns erros de PT.</div><div class="bgColor1 spaceit">Muito bom!</div><div class="bgColor2 spaceit">Melhor fansub do Brasil neste projeto!!</div><div class="bgColor1 spaceit">Raros erros.</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">No geral, uma boa legenda, mas há alguns erros bobos e frases que alteram o sentido original. Uma melhor revisão resolveria esse problema.</div><div class="bgColor1 spaceit">Trabalho de qualidade e que merece ser reconhecido</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/5681"><strong>Summer Wars</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>14 of 15 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/4884"><strong>Tales of the Abyss</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>10 of 11 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6046"><strong>Tales of Vesperia: The First Strike</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>7 of 8 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/3089"><strong>The Sky Crawlers</strong></a> <span class="lightLink"><small>Movie - 1 episodes</small></span>
+				<div class="spaceit_pad"> <small>4 of 5 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/21353"><strong>Tokyo ESP</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>6 of 6 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/22319"><strong>Tokyo Ghoul</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>25 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(22319);">1 comments</a></small>
+				</div><div id="fsgComments22319" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Muito boa e sem fugir dos termos originais, de parabéns :D</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/6211"><strong>Tokyo Magnitude 8.0</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>19 of 20 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/14227"><strong>Tonari no Kaibutsu-kun</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>8 of 9 users approve</small>
+				</div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/12431"><strong>Uchuu Kyoudai</strong></a> <span class="lightLink"><small>TV - 99 episodes</small></span>
+				<div class="spaceit_pad"> <small>23 of 26 users approve, <a href="javascript:void(0);" onclick="toggleComments(12431);">4 comments</a></small>
+				</div><div id="fsgComments12431" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Boa tradução. Ponto para a MDAN.</div><div class="bgColor2 spaceit">Apesar de muito atrasados, a qualidade é a melhor.</div><div class="bgColor1 spaceit">Perfeito!</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Faz um ano que o anime terminou e ainda não terminaram de traduzir.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/10162"><strong>Usagi Drop</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>16 of 17 users approve, <a href="javascript:void(0);" onclick="toggleComments(10162);">1 comments</a></small>
+				</div><div id="fsgComments10162" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">MDAN é boa em tudo o que faz, o trabalho deles com todos os detalhes da legenda dos animes é perfeito.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/29854"><strong>Ushio to Tora (TV)</strong></a> <span class="lightLink"><small>TV - 26 episodes</small></span>
+				<div class="spaceit_pad"> <small>28 of 30 users approve, <a href="javascript:void(0);" onclick="toggleComments(29854);">7 comments</a></small>
+				</div><div id="fsgComments29854" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Melhor fansub :D</div><div class="bgColor2 spaceit">they do a great job, I like them!</div><div class="bgColor1 spaceit">muito bem legendado</div><div class="bgColor2 spaceit">Perfeito!</div><div class="bgColor1 spaceit">MDAN é MDAN: imbatível. Apenas haters invejosos não enxergam o óbvio: eles são imbatíveies!</div><div class="bgColor2 spaceit">Que bom que pegaram o projeto, ja estava preocupado em ser obrigado a levar um soco no estômago.</div><div class="bgColor1 spaceit">sempre dou risadas com as piadas do SOCO kkkkkkkkkkkk</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/31098"><strong>Ushio to Tora (TV) 2nd Season</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>27 of 27 users approve, <a href="javascript:void(0);" onclick="toggleComments(31098);">7 comments</a></small>
+				</div><div id="fsgComments31098" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">So traducao de qualidade</div><div class="bgColor2 spaceit">Nice subs!</div><div class="bgColor1 spaceit">show</div><div class="bgColor2 spaceit">Excellent translation work</div><div class="bgColor1 spaceit">Que bom que continuaram com a segunda temporada!</div><div class="bgColor2 spaceit">Because they&#039;re awesome!!</div><div class="bgColor1 spaceit">porque a mdan é um dos melhores fansubs do Brasil.</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/16742"><strong>Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!</strong></a> <span class="lightLink"><small>TV - 12 episodes</small></span>
+				<div class="spaceit_pad"> <small>11 of 12 users approve, <a href="javascript:void(0);" onclick="toggleComments(16742);">1 comments</a></small>
+				</div><div id="fsgComments16742" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Ótima qualidade</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/23283"><strong>Zankyou no Terror</strong></a> <span class="lightLink"><small>TV - 11 episodes</small></span>
+				<div class="spaceit_pad"> <small>27 of 29 users approve, <a href="javascript:void(0);" onclick="toggleComments(23283);">2 comments</a></small>
+				</div><div id="fsgComments23283" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit">Legendas da MDAN é sinônimo de qualidade sempre! Acompanho o fansub a muito tempo e recomendo!</div><div class="bgColor2 spaceit">Ficou ótimo, mas não foi como a Dollars..
+Mas mesmo assim, ótimo trabalho MDAN!</div></div>
+				</div><div style="border-width: 0; margin: 12px 0 0 0;"><a href="/anime/11837"><strong>Zetman</strong></a> <span class="lightLink"><small>TV - 13 episodes</small></span>
+				<div class="spaceit_pad"> <small>17 of 20 users approve, <a href="javascript:void(0);" onclick="toggleComments(11837);">2 comments</a></small>
+				</div><div id="fsgComments11837" style="display: none;" class="spaceit_pad"><div class="bgColor1 spaceit" style="background-color: #f7e0e0;">Animes</div><div class="bgColor2 spaceit" style="background-color: #f7e0e0;">Nem parece a MDAN dos velhos tempos, péssima tradução em muitas partes chega a ser altamente literal, karaokês de péssima qualidade e typeset ruim.</div></div>
+				</div>
+		</td>
+		</tr>
+		</table></div><!-- end of contentHome -->
+
+</div><!-- end of contentWrapper -->
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+
+</div><!-- wrapper -->
+
+
+    <div id="ad-skin-bg-right" class="ad-skin-side-outer ad-skin-side-bg bg-right">
+    <div id="ad-skin-right" class="ad-skin-side right" style="display: none;">
+      <div id="ad-skin-right-absolute-block">
+        <div id="ad-skin-right-fixed-block"></div>
+      </div>
+    </div>
+  </div>
+</div><!-- #myanimelist -->
+
+
+<div class="footer-ranking">
+  <div class="ranking-container">
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/topanime.php" class="view_more fl-r">More</a>Top Anime
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood">Fullmetal Alchemist: Brotherhood</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa">Kimi no Na wa.</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/9253/Steins_Gate">Steins;Gate</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/28977/Gintama°">Gintama°</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011">Hunter x Hunter (2011)</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/topanime.php?type=airing" class="view_more fl-r">More</a>Top Airing Anime
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/30484/Steins_Gate_0">Steins;Gate 0</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/37491/Gintama__Shirogane_no_Tamashii-hen_-_Kouhan-sen">Gintama.: Shirogane no Tamashii-hen - Kouhan-sen</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/37991/JoJo_no_Kimyou_na_Bouken__Ougon_no_Kaze">JoJo no Kimyou na Bouken: Ougon no Kaze</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/36456/Boku_no_Hero_Academia_3rd_Season">Boku no Hero Academia 3rd Season</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3">Shingeki no Kyojin Season 3</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title">Top Page Views
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/35835/RErideD__Tokigoe_no_Derrida">RErideD: Tokigoe no Derrida</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3">Shingeki no Kyojin Season 3</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/36456/Boku_no_Hero_Academia_3rd_Season">Boku no Hero Academia 3rd Season</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/37171/Asobi_Asobase">Asobi Asobase</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/36474/Sword_Art_Online__Alicization">Sword Art Online: Alicization</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/character.php" class="view_more fl-r">More</a>Most Popular Characters
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/character/417/Lelouch_Lamperouge">Lamperouge, Lelouch</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/character/71/L_Lawliet">Lawliet, L</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/character/40/Luffy_Monkey_D">Monkey D., Luffy</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/character/11/Edward_Elric">Elric, Edward</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/character/80/Light_Yagami">Yagami, Light</a>
+            </li>
+                  </ol>
+      </div>
+      </div>
+</div>
+<footer>
+  <div id="footer-block">
+    <div class="footer-link-block">
+      <p class="footer-link home di-ib">
+        <a href="https://myanimelist.net/">Home</a>
+      </p>
+      <p class="footer-link di-ib">
+        <a href="https://myanimelist.net/about.php">About</a>
+        <a href="https://myanimelist.net/pressroom">Press Room</a>
+        <a href="https://myanimelist.net/about.php?go=contact">Support</a>
+        <a href="https://myanimelist.net/advertising">Advertising</a>
+        <a href="https://myanimelist.net/forum/?topicid=515949">FAQ</a>
+        <a href="https://myanimelist.net/about/terms_of_use">Terms</a>
+        <a href="https://myanimelist.net/about/privacy_policy">Privacy</a>
+        <a href="https://myanimelist.net/about/sitemap">Sitemap</a>
+      </p>
+            <p class="footer-link login di-ib">
+        <a href="https://myanimelist.net/login.php?from=%2Ffansub-groups.php%3Fid%3D712" id="malLogin" rel="nofollow">Login</a>
+        <a href="https://myanimelist.net/register.php?from=%2Ffansub-groups.php%3Fid%3D712">Sign Up</a>
+      </p>
+          </div>
+
+    <div class="footer-link-icon-block">
+            <div class="footer-social-media ac">
+        <a target="_blank" class="icon-sns icon-fb di-ib" href="https://www.facebook.com/OfficialMyAnimeList"></a>
+        <a target="_blank" class="icon-sns icon-tw di-ib" title="Follow @myanimelist on Twitter" href="https://twitter.com/myanimelist"></a>
+      </div>
+            <div class="footer-recommended ac">
+        <a target="_blank" class="icon-recommended icon-tokyo-otaku-mode" href="http://otakumode.com/fb/5aO">Tokyo Otaku Mode</a>
+        <a target="_blank" class="icon-recommended icon-honeys-anime" href="https://honeysanime.com">Honey's Anime</a>
+        <a target="_blank" class="icon-recommended icon-manga-store" href="https://myanimelist.net/store?_location=mal_f_m">Manga Store</a>
+      </div>
+    </div>
+
+        <iframe class="fb-page" src="" width="450" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+    <div id="copyright">
+      MyAnimeList.net is a property of MyAnimeList, LLC. &copy;2015 All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    window.MAL.magia = "06410c4e6b2518e9add8f6df0ccb2da2876bb8c980aacb43a8dcaa8153c0f92c";
+  window.MAL.madoka = "hZrDKm9k6FVRnqd3i%=K";
+
+  window.MAL.SLVK = "g4OvMLVOmEI3J8u7dt8f8+mAuualsqCo";
+  window.MAL.CDN_URL = "https://myanimelist.cdn-dena.com";
+
+  window.MAL.CURRENT_TUTORIAL_STEP_ID = null;
+  window.MAL.USER_NAME = ""
+  window.MAL.FACEBOOK.APP_ID = "360769957454434"
+  window.MAL.FACEBOOK.API_VERSION = "v2.12"
+</script>
+</body>
+</html>
