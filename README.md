@@ -1,2 +1,3 @@
+
 # MyAnimeList Fansub Databse
- An archive of the Anime Fansub groups databse of from MyAnimeList website, which was removed from the site
+An archive of the Anime Fansub databse from MyAnimeList, which was removed from the site in 2018.  
