@@ -40,9 +40,5 @@ contains all comments on every sub for every show. you can use 'groupid' and 'sh
 **Note:** Each table has an "id" field. This is an autoincrement field used for ordering. It doesn't have anything to do with MAL ids.
 
 ## Credits
-Thanks to u/iBzOtaku for archiving the data back in 2018, visit the Additional Information folder for more information and context.
+Thanks to @IA21 u/iBzOtaku for archiving the data back in 2018, visit the Additional Information folder for more information and context.
 
-
-
-# Credits
-Thanks to @IA21 u/iBzOtaku
