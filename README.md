@@ -67,7 +67,11 @@ contains most of the info you will need: all shows subbed by all groups. 'groupi
 contains all comments on every sub for every show. you can use 'groupid' and 'showid' for searching. 'comment' field contains the actual comment. 'color' is for whether a user liked a sub or not. + means like and - means dislike (red background comments).
 
 
-**Note:** Each table has an "id" field. This is an autoincrement field used for ordering. It doesn't have anything to do with MAL ids.
+**Note:** Each table has an "id" field. This is an autoincrement field used for ordering. It doesn't have anything to do with MAL ids.  
+
+**Example of JSON format** for my personal favorite Fansub group - KAT
+![JSON example](Assets/json_example.png)
+
 
 ## Credits
 Thanks to @IA21 u/iBzOtaku for archiving the data back in 2018, visit the Additional Information folder for more information and context.
