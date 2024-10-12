@@ -30,8 +30,11 @@ Nowadays, with major platforms like Crunchyroll and Netflix dominating anime str
 - Official subs are straight up wrong
 ![fansub example](Assets/fansub_example_2.png)
 
-- Even the absurditties have become iconic on their own right
+- Even the absurditties have become iconic on their own right  
 ![fansub example](Assets/fansub_example_3.png)
+
+- Fansub: by the fans - for the fans  
+![fansub example](Assets/fansub_example_4.png)
 
 </details>
 
