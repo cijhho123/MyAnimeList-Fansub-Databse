@@ -1,3 +1,5 @@
+![MAL logo](Assets/myanimelist_loo.jpg)
+
 # MyAnimeList Fansub Databse
 An archive of the Anime Fansub databse from [MyAnimeList](https://myanimelist.net/) as of Sep 25, 2018, which was removed from the site shortly after.  
 
@@ -8,6 +10,34 @@ I think that MAL/JustAnotherShiro summarized it pretty good:
 
 You can use this extensive database to find the best fansub suitted for you for anime up to 2018. All according to keikaku.  
 **Translator's note:** keikaku means plan. 
+
+# Why bother with Fansubs?
+Nowadays, with major platforms like Crunchyroll and Netflix dominating anime streaming, fansubs have become much rarer compared to the vibrant fansub community of the early 2000s. However, they still offer several advantages over the often lackluster official English subtitles.   
+
+- **Better handling of wordplay and puns:** Fansubs often preserve the humor and nuances of wordplay (e.g., in "Monogatari" and "OreGairu") which official subtitles struggle to convey accurately due to hyper-literal translations.  
+- **Inclusion of untranslated visual elements:** Fansubs are more likely to translate on-screen text (e.g., signs and posters) that official subs often omit, enhancing understanding of visual context.  
+- **Adaptation of cultural references:** Fansubs tend to maintain important Japanese cultural elements, while official subs may simplify or westernize them, reducing the authenticity of the content.  
+- **More accurate translations in specific shows:** For shows like "Steins;Gate" or "Symphogear," fansubs address inconsistencies and errors in the official subs.
+- **Enhanced readability and presentation:** Fansubs often include better typesetting and formatting, making it easier to follow dialogue alongside visual information, particularly in text-heavy or fast-paced scenes.  
+- **【Karaoke】:** Fansubs often provide translations of song lyrics, which official subs may neglect, and there's nothing better than singing along your favorite OP!
+- **Attention to detail:** Fansubbers invest considerable effort into producing accurate and detailed translations, which are often of higher quality than official releases that may be hurried or constrained by strict regulations (such as Netflix's text limitations). Additionally, fansub groups frequently offer creative and playful translations that enhance the overall viewing experience.
+<details>
+  <summary>Click for examples</summary>
+
+- Creative and playful translations  
+![fansub example](Assets/fansub_example_1.png)  
+
+- Official subs are straight up wrong
+![fansub example](Assets/fansub_example_2.png)
+
+- Even the absurditties have become iconic on their own right
+![fansub example](Assets/fansub_example_3.png)
+
+</details>
+
+I highly recommend watching Gigguk's [Watching Anime Fansubs](https://www.youtube.com/watch?v=t_snS5DfSdg) video to get a taste of the culturle and historical phenomenon which is anime fansub.
+
+
 
 # The archive
 This is the MyAnimeList Fansubs Archive as of Sep 25, 2018. There are 3 folders in this archive: 
