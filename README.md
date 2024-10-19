@@ -38,7 +38,7 @@ Nowadays, with major platforms like Crunchyroll and Netflix dominating anime str
 
 </details>
 
-I highly recommend watching Gigguk's [Watching Anime Fansubs](https://www.youtube.com/watch?v=t_snS5DfSdg) video to get a taste of the culturle and historical phenomenon which is anime fansub.
+I highly recommend watching Gigguk's [Watching Anime Fansubs](https://www.youtube.com/watch?v=t_snS5DfSdg) video to get a taste of the cultural and historical phenomenon which is anime fansub.
 
 
 
