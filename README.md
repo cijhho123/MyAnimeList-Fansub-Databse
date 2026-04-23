@@ -73,7 +73,38 @@ contains all comments on every sub for every show. you can use 'groupid' and 'sh
 **Note:** Each table has an "id" field. This is an autoincrement field used for ordering. It doesn't have anything to do with MAL ids.  
 
 **Example of JSON format** for my personal favorite Fansub group - KAT
-![JSON example](Assets/json_example.png)
+
+`group_links` table — maps each group to its MAL letter index and internal IDs:
+```json
+[
+  {
+    "id": "2320",
+    "letter": "K",
+    "name": "KATeam - Kosher Anime Translation",
+    "shortname": "KAT",
+    "groupid": "1017",
+    "status": "0"
+  }
+]
+```
+
+`groups` table — full group metadata including language, votes, and output:
+```json
+[
+  {
+    "id": "6792",
+    "groupid": "1017",
+    "groupname": "KATeam - Kosher Anime Translation",
+    "shortname": "KAT",
+    "irc": "#KATeam@irc.rizon.net",
+    "language": "Hebrew",
+    "total_votes": "244",
+    "approve": "202",
+    "disapprove": "42",
+    "shows_subbed": "30"
+  }
+]
+```
 
 
 ## Credits
